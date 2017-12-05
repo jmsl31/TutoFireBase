@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "451363281749",
+    "firebase_url": "https://fine-jetty-187513.firebaseio.com",
+    "project_id": "fine-jetty-187513",
+    "storage_bucket": "fine-jetty-187513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451363281749:android:a814b1c26e948844",
+        "android_client_info": {
+          "package_name": "com.example.meisslj1.tutofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451363281749-4jidhatevmpofean8ta5j3ojiq5d9j59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn4goblyAvJlSDg_KHc_T-9te5y-h0374"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
