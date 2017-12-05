@@ -19,11 +19,20 @@ public class ListesOfficiel {
 
     }
 
-    private addOfficiels(int id,String nom,String prenom,String mail,String telephone,String type,String  role,String sexe,int age){
+    private void addOfficiels(int id,String nom,String prenom,String mail,String telephone,String type,String  role,String sexe,int age){
 
         Officiel i = new Officiel(id,nom,prenom,mail,telephone,type,role,sexe,age);
-
-        ListOfficiels.add(i);
+        if ( !ListOfficiels.isEmpty())
+                 ListOfficiels.add(i);
     }
 
+        private void removeOfficiel(int item){
+
+            ListOfficiels.remove(item);
+        }
+
+        private int count(){
+
+            return ListOfficiels.size();
+        }
 }
